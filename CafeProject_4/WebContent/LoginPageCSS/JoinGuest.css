@@ -1,0 +1,125 @@
+@charset "UTF-8";
+
+/*일반 게스트 로그인css*/
+body{
+    background-color: #f7f7f7;
+    font-family: 'Courgette', cursive;
+    margin: 0 auto;
+    width: 1000px;
+   height: 1000px;
+}
+
+#MainArticle{
+    font-family: NotoSans-Regular,AppleSDGothicNeo-Regular,"맑은 고딕",Malgun Gothic,"돋움",dotum,sans-serif;
+    border: 1px solid #e5e5e5;
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    padding: 58px 69px 139px;
+}
+
+#JoinBox{
+    margin: 10px 0px;
+}
+
+#idBox{
+    margin: 10px 0px;
+    position: relative;
+}
+
+.Joindesc{
+    font-size: 10px;
+    margin-left: 20px;
+}
+
+.JoinTitle{
+   margin: 20px 0 10px 0; 
+   display: block;
+}
+
+.JoinInput{
+    padding: 7px;
+    margin-bottom: 5px;
+}
+
+input{
+    display: block;
+}
+
+#userPhoneNum{
+    display: inline;
+}
+
+#countryNumber{
+    width: 50px;
+}
+
+/* 버튼 관련 */
+#CertifyID{
+      display: inline;
+    margin: 15px auto;
+    padding: 8px;
+    color: rgb(128, 88, 165);
+    background: #eeeeee;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    position: absolute;
+    right: 220px;
+    top: 14px;
+}
+
+#PermissionBox{
+    position: relative;
+}
+#CertifyNumber{
+    color: rgb(128, 88, 165);
+    background: #eeeeee;
+    text-decoration: none;
+    margin: 15px auto;
+    padding: 7px;
+    font-size: 15px;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+#CertifyID:hover,#CertifyNumber:hover{
+    background-color: #e6e3e3;
+}
+#JoinGuest{
+    padding: 12px;
+    color: rgb(128, 88, 165);
+    background: #FFEDEC;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 15px;
+    border-color: rgb(237, 232, 242);
+    margin-top: 20px;
+
+} 
+#JoinGuest:hover{
+    background-color: #FFD0CF;
+}
+#countryNumber{
+    height: 32px;
+}
+
+/*태그 박스*/
+#likingBox {
+    width: auto;
+    height: 80px;
+
+
+}
+.hashtag{
+    margin: 5px;
+    display: inline-block;
+}
+
+#likingBox a{
+    background-color: #e6e3e3;
+    padding: 3px;
+    border-radius: 10px;
+}
+
