@@ -1,0 +1,167 @@
+
+/********************/
+/* write_main css*/
+main{
+    font-family: 'Nanum Gothic', sans-serif;
+    width: 500px;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+}
+
+/* wirte_정보입력*/
+
+.cosBtn{
+    margin-top: 7px;
+}
+.cafeInfo{
+    margin-top: 7px;
+    padding: 3px;
+}
+#cafeName, #cafeMenu,#cafeOpen, #cafeBreak,#cafeNumber,#BreakStart{
+    margin-left: 61px;
+}
+#cafePrice{
+    margin-left: 81px;
+}
+#cafeParking{
+    margin-left: 97px;
+}
+#lastOrder{
+    margin-left: 47px;
+}
+#cafeIntroduce{
+    margin-left: 27px;
+    margin-bottom: 15px;
+}
+#cafeInfo,#menuPicture,#hashTag{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#cafePicture{
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.desc{
+    margin-left: 20px;
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+
+#cafeOpen,#cafeClose,#BreakStart,#BreakEnd,#lastOrder{
+    width: 80px;
+}
+
+#cafeOpen,#cafeClose{
+    width: 80px;
+}
+
+/* wirte_cos*/
+#showCos{
+    width: auto;
+    height: 200px;
+}
+.menuBtn{
+    margin-top: 8px;
+}
+#writeBtn{
+    position: absolute;
+    right: 0;
+    padding: 4px;
+}
+
+
+/* hash Tag */
+
+/*중복확인*/
+#CertifyID{
+    display: inline;
+  margin: 15px auto;
+  padding: 8px;
+  color: rgb(128, 88, 165);
+  background: #eeeeee;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 15px;
+  position: absolute;
+  right: 220px;
+  top: 14px;
+}
+
+#PermissionBox{
+  position: relative;
+}
+#CertifyNumber{
+  color: rgb(128, 88, 165);
+  background: #eeeeee;
+  text-decoration: none;
+  margin: 15px auto;
+  padding: 7px;
+  font-size: 15px;
+  border-radius: 5px;
+  margin-left: 5px;
+}
+
+#CertifyID:hover,#CertifyNumber:hover{
+  background-color: #e6e3e3;
+}
+#JoinGuest{
+  padding: 12px;
+  color: rgb(128, 88, 165);
+  background: #FFEDEC;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 15px;
+  border-color: rgb(237, 232, 242);
+  margin-top: 20px;
+
+} 
+#JoinGuest:hover{
+  background-color: #FFD0CF;
+}
+#countryNumber{
+  height: 32px;
+}
+
+#selectPrice{
+    margin-left: 81px;
+    padding: 3px;
+    margin-top: 6px;
+}
+
+
+/*태그 박스*/
+#likingBox {
+    width: auto;
+    height: 80px;
+    margin-top: 15px;
+}
+
+.hashtag{
+    margin: 5px;
+    display: inline-block;
+    color: rgb(128, 88, 165);
+}
+
+#likingBox a{
+    background-color: #e6e3e3;
+    padding: 3px;
+    border-radius: 10px;
+}
+
+/*wirteInfo Box*/
+#writeInfo h3, #writeInfo p{
+	display: inline;
+}
+#writeInfo .presentInfo{
+	color:rgb(181, 139, 221);
+}
+
+#writeInfo{
+    margin-bottom: 40px;
+}
+
+

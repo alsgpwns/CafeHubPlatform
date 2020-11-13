@@ -1,0 +1,82 @@
+@charset "UTF-8";
+/*include_ header css*/
+*{
+    margin: 0; padding: 0;
+}
+
+body{
+    background-color: #f7f7f7;
+    font-family: 'Nanum Gothic', sans-serif;
+    margin: 0 auto;
+    width: 1000px;
+   height: 1000px;
+}
+header{
+    position: relative;
+    font-family: 'Nanum Myeongjo', serif;
+    width: 1000px;
+    height: 150px;
+}
+
+header #topbutton{
+    right: 5%;
+    bottom: 10px;
+    position: fixed;
+    font-size: 28px;
+    color: rgb(240, 157, 171);
+    z-index: 1;
+}
+
+header .container{
+    position: relative;
+    width: 960px;
+    height: 100px;
+}
+header #logo{
+    display: inline-block;
+    position: absolute;
+    left: 0; top: 0;
+}
+
+header ul{
+    list-style-type: none;
+}
+
+header ul li{
+    float: left;
+    padding-left: 1.5em;
+}
+
+header a{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 5px;
+}
+
+header #logo h1{
+    color: rgb(191, 162, 218);
+    letter-spacing: 0.05em;
+    padding: 6px 6px 6px 10px;
+    border-radius: 10px;
+    font-size: 25px;
+}
+
+header #signbutton{
+    position: absolute;
+    right: 0; top: 35px;
+}
+
+header #signbutton #signin{
+    background-color: #444;
+    color: white;
+    border-radius: 6px;
+}
+
+header #signbutton #signup{
+    color: #444;
+    border-radius: 6px;
+}
+
+header #signbutton #signup:hover{
+    background-color: white;
+}
