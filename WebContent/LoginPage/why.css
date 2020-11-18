@@ -1,0 +1,59 @@
+@charset "UTF-8";  /* 메인CSS */
+
+
+*{
+    margin: 0; padding: 0;
+}
+
+body{
+    background-color: #f7f7f7;
+    background-color: pink;
+    /* font-family: 'Lobster', cursive; */
+    font-family: 'Courgette', cursive;
+    margin: 0 auto;
+    width: 1000px;
+   height: 1000px;
+
+}
+main{
+	 margin: 0px 10%;
+}
+/* 메인-box */
+main .sectionBox{
+    /* border: 1px solid black; */
+    font-family: 'Nanum Gothic', sans-serif;
+    border-radius: 6px;
+    background-color: white;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.05);
+    width: 30.33333%;
+    height: 328px;
+    display: inline-block;
+    margin: 0 20px 20px 0;
+}
+
+article{
+    display: inline-block;
+    margin: 5px 5px;
+}
+
+main article img{
+    border-radius: 6px;
+}
+
+
+main article .inner{
+    padding: 1.5em 1em 0.5em;
+    color: #696969;
+    position: relative;
+}
+
+main article .inner #rating{
+    position: absolute;
+    right: 10%;
+    color: rgba(230, 92, 230, 0.808);
+}
+
+main article .inner p{
+    font-size: small;
+    padding-top: 0.7em;
+}
