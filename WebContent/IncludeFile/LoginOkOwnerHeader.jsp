@@ -25,7 +25,7 @@
             </div>
 
            
-            <a href="/CafeProject_10/OwnerPage/OwnerTextWrite.jsp" id="writebtn"><i class="far fa-edit" id="writeIcon"></i></a>
+            <a href="write.do" id="writebtn"><i class="far fa-edit" id="writeIcon"></i></a>
            
 
             <div class="dropdown">
@@ -35,6 +35,7 @@
                         <a href="#">Your Profile</a>
                         <a href="#">Your WishList</a>
                         <a href="#">Your CouponBook</a>
+                        <a href="EdityourCafe.do">Edit Cafe Profile</a>
                         <a href="signOut.do">Sign out</a>
                     </div>
             </div>

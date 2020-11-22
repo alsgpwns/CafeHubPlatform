@@ -22,7 +22,7 @@
 		<section class="sectionBox">
 		
 			<article>
-				<a href="#" class="imageFeature">
+				<a href="viewContents.do?id=${dto.id }" class="imageFeature">
 					<img src="${dto.cafeReprePicture }" width= "231px" height="150px" alt="카페 이미지" >
 				</a>
 				<div class="inner">

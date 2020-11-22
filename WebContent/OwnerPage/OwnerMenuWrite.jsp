@@ -70,7 +70,7 @@
 				<h3 class="info">카페 기본 정보</h3><p>　>　</p><h3 class="presentInfo">메뉴판 사진</h3><p>　>　</p><h3 class="info">대표 사진</h3><p>　>　</p><h3 class="info">카페 소개 사진</h3>
 			</div>
 		<main>
-			<form name="submitTest" method="post" action="OwnerMenuModify.do" enctype="multipart/form-data">
+			<form name="submitTest" method="post" action="OwnerPictureMenu.do" enctype="multipart/form-data">
 			         <h2 id="cafeInfo">메뉴판</h2>
 			         		<ul><li class="desc">메뉴판 사진을 업로드해주세요.</li></ul>
 			                <ul><li class="desc">최대 3장 업로드 하실 수 있습니다.</li></ul>

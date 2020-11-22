@@ -56,8 +56,9 @@
 <body>
 
 <%@ include file="/IncludeFile/LoginOkOwnerHeader.jsp" %>
+		<h3 id="editDesc">카페 프로필 수정하기</h3><br/>
+		
  		<div id="writeInfo">
- 			<h3 id="editDesc">카페 프로필 수정하기</h3><br/>
 			<h3 class="presentInfo">카페 기본 정보</h3><p>　>　</p><h3 class="info">메뉴판 사진</h3><p>　>　</p><h3 class="info">카페 사진</h3><p>　>　</p><h3 class="info">대표 사진</h3><p>　>　</p><h3 class="info">카페 소개 사진</h3>
 		</div>
   <main>

@@ -95,7 +95,8 @@ main{
 }
 #showMenu{
 	width: auto;
-    height: 300px;
+    height: auto;
+    min-height: 300px;
 }
 .menuBtn{
     margin-top: 8px;
@@ -204,6 +205,11 @@ main{
 
 #writeInfo{
     margin-bottom: 40px;
+}
+
+.yourImg{
+	max-width: 350px;
+    max-height: 200px;
 }
 
 

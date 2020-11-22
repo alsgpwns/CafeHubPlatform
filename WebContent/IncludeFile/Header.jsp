@@ -27,7 +27,7 @@
 <header>
 	  <div id="header" class="container">
             <div id="logo">
-                <a href="main.jsp"><h1><i class="fas fa-coffee"></i> Cafe Hub</h1></a>
+                <a href="/CafeProject_10/LoginPage/main.jsp"><h1><i class="fas fa-coffee"></i> Cafe Hub</h1></a>
             </div>
 
             <div id="signbutton">

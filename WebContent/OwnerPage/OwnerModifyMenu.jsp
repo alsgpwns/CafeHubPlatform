@@ -47,7 +47,7 @@
 				<h3 class="info">카페 기본 정보</h3><p>　>　</p><h3 class="presentInfo">메뉴판 사진</h3><p>　>　</p><h3 class="info">대표 사진</h3><p>　>　</p><h3 class="info">카페 소개 사진</h3>
 			</div>
 		<main>
-			<form name="submitTest" method="post" action="OwnerModifyPicture.do" enctype="multipart/form-data">
+			<form name="submitTest" method="post" action="OwnerModifyReprePicture.do" enctype="multipart/form-data">
 			         <h2 id="cafeInfo">메뉴판</h2>
 			         		<ul><li class="desc">메뉴판 사진을 업로드해주세요.</li></ul>
 			                <ul><li class="desc">최대 3장 업로드 하실 수 있습니다.</li></ul>
@@ -65,7 +65,7 @@
 									</c:if>
 									
 									<c:if test="${myDTO.cafeMenu1 != '/CafeProject_10/UploadFolder_Owner/null'}">
-										<img src="${myDTO.cafeMenu1 }" width= "231px" height="150px" alt="메뉴판 이미지1" > <br/>
+										<img src="${myDTO.cafeMenu1 }" width= "231px" height="150px" alt="메뉴판 이미지1" class="yourImg" > <br/>
 										<input type="file" name="menu1" class="menuInput" onchange="checkFile(this)" >
 									</c:if>
 								
@@ -73,25 +73,24 @@
 								<h4 class="menuInfo">두번째 메뉴판 사진</h4>
 									<c:if test="${empty myDTO.cafeMenu2}">
 										<ul><li class="desc">메뉴판 이미지가 없어요!</li></ul>
-										<input type="file" name="menu1" class="menuInput" onchange="checkFile(this)" >
+										<input type="file" name="menu2" class="menuInput" onchange="checkFile(this)" >
 									</c:if>
 									
 									<c:if test="${not empty myDTO.cafeMenu2}">
-										<p>dto: ${myDTO.cafeMenu2 }</p>
-										<img src="${myDTO.cafeMenu2 }" width= "231px" height="150px" alt="메뉴판 이미지2" > <br/>
-										<input type="file" name="menu1" class="menuInput" onchange="checkFile(this)" >
+										<img src="${myDTO.cafeMenu2 }" width= "auto" height="auto" alt="메뉴판 이미지2" class="yourImg"> <br/>
+										<input type="file" name="menu2" class="menuInput" onchange="checkFile(this)" >
 									</c:if>
 									
 									
 								<h4 class="menuInfo">세번째 메뉴판 사진</h4>
 									<c:if test="${empty myDTO.cafeMenu3}">
 										<ul><li class="desc">메뉴판 이미지가 없어요!</li></ul>
-										<input type="file" name="menu1" class="menuInput" onchange="checkFile(this)" >
+										<input type="file" name="menu3" class="menuInput" onchange="checkFile(this)" >
 									</c:if>
 									
 									<c:if test="${not empty myDTO.cafeMenu3}">
-										<img src="${myDTO.cafeMenu3 }" width= "231px" height="150px" alt="메뉴판 이미지3" > <br/>
-										<input type="file" name="menu1" class="menuInput" onchange="checkFile(this)" >
+										<img src="${myDTO.cafeMenu3 }" width= "231px" height="150px" alt="메뉴판 이미지3" class="yourImg" > <br/>
+										<input type="file" name="menu3" class="menuInput" onchange="checkFile(this)" >
 									</c:if>
 								
 
