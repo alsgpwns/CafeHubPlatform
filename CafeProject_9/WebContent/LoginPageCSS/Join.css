@@ -1,0 +1,54 @@
+@charset "UTF-8";
+.JoinForm{
+    margin: 0 auto;
+     width: 400px;
+     height: 350px;
+     position: relative;
+     font-family: NotoSans-Regular,AppleSDGothicNeo-Regular,"맑은 고딕",Malgun Gothic,"돋움",dotum,sans-serif;
+    border: 1px solid #e5e5e5;
+    position: relative;
+}
+
+#UserJoinButton{
+    display: block;
+    height: 35px;
+    width: 200px;
+    margin: 15px auto;
+    width: 220px;
+    color: rgb(128, 88, 165);
+    background: rgb(236, 214, 218);
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    padding-top: 10px;
+}
+
+#OwenrJoinButton{
+    display: block;
+    height: 35px;
+    border: 1px;
+    margin: 15px auto;
+    width: 220px;
+    color: rgb(128, 88, 165);
+    background: rgb(236, 214, 218);
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    padding-top: 10px;
+}
+
+
+#OwenrJoinButton:hover, #UserJoinButton:hover{
+    background-color: #B79090;
+}
+
+
+
+#Joindesc{
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    color: rgb(221, 145, 158);
+}

@@ -1,0 +1,119 @@
+@charset "UTF-8";
+*{
+    margin: 0; padding: 0;
+}
+
+body{
+    background-color: #f7f7f7;
+    font-family: 'Fira Sans', sans-serif;
+    margin: 0 auto;
+    width: 1000px;
+   height: 1000px;
+}
+footer{
+	font-family: 'Fira Sans', sans-serif;
+    position: relative;
+    width: 1000px;
+    margin-top: 200px;
+    color: #444444;
+    height: 400px;
+}
+
+footer .contact{
+    position: absolute;
+    right: 3%;
+    width: 300px;
+    display: inline-block;
+}
+
+footer .contact ul{
+    list-style: none;
+	padding-left: 0;
+	overflow: hidden;
+	position: relative;
+	left: -4px;
+	top: 4px;
+    margin-bottom: 1em;
+}
+
+footer .contact ul li{
+    display: inline-block;
+	margin-right: 0.25em;
+	padding-left: 0;
+}
+
+footer .contact ul li a{
+	display: inline-block;
+	width: 2.5em;
+	height: 2.5em;
+	text-align: center;
+    line-height: 2.5em;
+	border-radius: 0.35em;
+	outline: 0;
+	opacity: 0.75;
+	text-decoration: none;
+	background: rgb(236, 214, 218);
+}
+
+footer .contact ul li i{
+    color: #f3f3f3;
+    font-size: 1.5em;
+    line-height: inherit;
+}
+
+footer .contact ul li a:hover{
+    background: #b18f8f;
+}
+
+footer .contact ul li a:active {
+    background: #666666;
+}
+
+footer .contact p{
+    font-size: 12px;
+}
+
+
+/* footer-random */
+footer .links{
+    display: inline-block;
+    padding-left: 1em;
+}
+
+footer .links ul{
+    list-style-type: none;
+}
+
+footer #link1{
+    position: absolute;
+    left: 0;
+}
+
+footer #link2{
+    position: absolute;
+    left: 32%;
+}
+
+
+footer a{
+    color: rgb(128, 88, 165);
+}
+
+
+/* copyright */
+footer #copyright{
+     font-family: 'Courgette', cursive;
+    position: absolute;
+    bottom: 50%;
+    right: 30%;
+    color: rgb(161, 161, 161);
+    text-align: center;
+}
+
+footer #copyright ul{
+    list-style-type: none;
+}
+
+footer #copyright ul li{
+    float: left;
+}

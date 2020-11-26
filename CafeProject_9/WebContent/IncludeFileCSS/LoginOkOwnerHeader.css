@@ -1,0 +1,159 @@
+@charset "UTF-8";
+/* 로그인 ok 오너 */
+/*헤더*/
+
+*{
+    margin: 0; padding: 0;
+}
+
+body{
+    background-color: #f7f7f7;
+    font-family: 'Courgette', cursive;
+    margin: 0 auto;
+    width: 1000px;
+   height: 1000px;
+}
+
+header{
+    background-color: #f7f7f7;
+    font-family: 'Noto Sans JP', sans-serif;
+    position: relative;
+    width: 1000px;
+    height: 150px;
+}
+
+header #topbutton{
+    right: 5%;
+    bottom: 10px;
+    position: fixed;
+    font-size: 28px;
+    color: rgb(240, 157, 171);
+    z-index: 1;
+}
+
+header .container{
+    position: relative;
+    width: 960px;
+    height: 100px;
+}
+header #logo{
+    display: inline-block;
+    position: absolute;
+    left: 0; top: 0;
+}
+
+header ul{
+    list-style-type: none;
+}
+
+header ul li{
+    float: left;
+    padding-left: 1.5em;
+}
+
+header a{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 5px;
+}
+
+header #logo h1{
+	color: rgb(191, 162, 218);
+    letter-spacing: 0.05em;
+    padding: 6px 6px 6px 10px;
+    border-radius: 10px;
+    font-size: 25px;
+}
+
+header #signbutton{
+    position: absolute;
+    right: 0; top: 35px;
+}
+
+header #signbutton .option{
+    background-color: #444;
+    color: white;
+    border-radius: 6px;
+}
+
+header #signbutton #signout{
+    color: #444;
+    border-radius: 6px;
+}
+
+header #signbutton #signout:hover{
+    background-color: white;
+}
+
+header #signbutton #mypage{
+    background-color:  #444;
+    color: white;
+    border-radius: 6px;
+}
+
+header #signbutton #mypage:hover{
+    background-color:  rgb(240, 200, 208);
+}
+
+header #signbutton .option:hover{
+    background-color:  rgb(240, 200, 208);
+}
+
+
+
+/*드롭다운*/
+.dropdown {
+  display: inline-block;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+
+.dropbtn {
+    color:  rgb(124, 121, 121);
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    background-color: #f7f7f7;
+    font-size: 30px;
+  }
+  
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 150px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    top: 70px;
+    right: 20px;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 15px;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: rgb(233, 233, 233);}
+
+  #writebtn{
+  position: absolute;
+    right: 100px;
+   top: 20px;
+    padding: 16px;
+  }
+  #writeIcon{
+   font-size: 30px;
+   
+    color: rgb(124, 121, 121);
+  }
